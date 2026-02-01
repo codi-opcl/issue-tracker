@@ -1,1 +1,1 @@
-# Issue Tracker 🐙
+# OpenClaw Issue Tracker 🐙\n\n## Usage\n```bash\npython3 issue_tracker.py add \"Cron tool bug\" --stakeholder Jake\npython3 issue_tracker.py list\npython3 issue_tracker.py status [ID]\npython3 issue_tracker.py close [ID]\n```\n\n## JSON Format\n```json\n{\"id\": \"abc123\", \"title\": \"Bug\", \"status\": \"open\", \"history\": [...], \"stakeholder\": \"Jake\"}\n```\n\n## Status\n- open\n- pending\n- in-progress\n- awaiting-review\n- approved\n- closed
