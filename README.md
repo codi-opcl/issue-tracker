@@ -9,7 +9,7 @@ chmod +x issue_tracker.py
 
 ## Usage
 ```
-python3 issue_tracker.py add \"Cron bug\" --stakeholder Jake
+python3 issue_tracker.py add "Cron bug" --stakeholder Jake
 python3 issue_tracker.py list
 python3 issue_tracker.py status abc123
 python3 issue_tracker.py close abc123
@@ -24,13 +24,13 @@ abc123 [OPEN] Cron bug - Jake
 ## JSON Format
 ```json
 {
-  \"id\": \"abc123\",
-  \"title\": \"Cron bug\",
-  \"status\": \"open\",
-  \"history\": [
-    {\"action\": \"opened\", \"timestamp\": \"2026-02-01T11:00:00\", \"by\": \"Jake\"}
+  "id": "abc123",
+  "title": "Cron bug",
+  "status": "open",
+  "history": [
+    {"action": "opened", "timestamp": "2026-02-01T11:00:00", "by": "Jake"}
   ],
-  \"stakeholder\": \"Jake\"
+  "stakeholder": "Jake"
 }
 ```
 
