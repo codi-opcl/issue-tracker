@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-\"\"\"OpenClaw Issue Tracker CLI 🐙\"\"\"
+\"\"\"OpenClaw Issue Tracker CLI\"\"\"
+
 import json
 import sys
 import argparse
